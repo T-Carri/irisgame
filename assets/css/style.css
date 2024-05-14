@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  .game-container {
+    width: 100%;
+    height: 100dvh;
+    position: relative;
+    background-image: url('../img/nubes.jpg'); /* Reemplaza 'clouds-background.jpg' con tu imagen de fondo */
+    background-size: cover;
+  }
+  
+  .player {
+    width: 100px;
+    height: 100px;
+    background-image:url('../img/mau.PNG');
+    background-size: cover;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .obstacle {
+    width: 100px;
+    height: 100px;
+    background-image:url('../img/Iris.PNG');
+    background-size: cover; 
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bullet {
+    width: 70px;
+    height: 70px;
+    background-image:url('../img/heart.svg');
+    background-size: cover; 
+    position: absolute;
+  }
